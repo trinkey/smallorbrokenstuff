@@ -1,0 +1,1 @@
+import time;print(">Ye find yerself in yon dungeon. Ye see a FLASK.\nObvious exists are NORTH, SOUTH, and DENNIS.\n\nWhat wouldst thou deau?");print("\nYou can't "+input(">").lower()+"!");time.sleep(10)
