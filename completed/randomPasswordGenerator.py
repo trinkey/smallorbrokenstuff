@@ -1,5 +1,5 @@
-# You can change this list to modify the allowed characters to use
-allowedCharacters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "_", "-", "/", "*", "?", ".", "!", "#", "%"]
+# You can change this string to modify the allowed characters to use
+allowedCharacters = [char for char in "abcdefghijklmnopqrstuvwxz0123456789_-/*?.!#"]
 # You can change this variable to modify the amount of characters to use. If 0, then it chooses a random from 8-16
 amountOfChars = 0
 # You can change this to copy to clipboard. THIS MAY NOT WORK, THERE ISN'T ONE DEFINITIVE WAY TO DO THIS IN PYTHON. VERY OS DEPENDENT
