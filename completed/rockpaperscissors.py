@@ -37,18 +37,14 @@ while True:
         wlt[2] += 1
     
     else:
-        if playerinput - 1 == computerinput:
-            print("You win!")
+        if av[playerinput - 1] == av[computerinput]:
+            print("You Win!")
             wlt[0] += 1
-        elif playerinput + 1 == computerinput:
+        elif av[computerinput - 1] == av[playerinput]:
             print("You lose!")
             wlt[1] += 1
-        elif playerinput == 2 and computerinput == 0:
-            print("You lose!")
-            wlt[1] += 1
-        elif playerinput == 0 and computerinput == 2:
-            print("You win!")
-            wlt[0] += 1
+        else:
+            print("For some reason, the winner could not be determined.")
     
     for i in range(3):
         if playerinput == i:
